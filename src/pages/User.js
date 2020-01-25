@@ -42,7 +42,7 @@ class User extends React.Component {
         console.log('modalShow1:' + this.state.modalShow);
         this.setState(prevState => ({
             modalShow: !prevState.modalShow
-          }));
+        }));
         if (!id) {
             this.setState({
                 modalTitle: 'Add User',
@@ -160,7 +160,7 @@ class User extends React.Component {
                             <th>Name</th>
                             <th>Email</th>
                             <th>Date</th>
-                            <th></th>
+                            <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>

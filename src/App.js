@@ -11,13 +11,6 @@ import { User, Contents, ChatContents } from './pages';
 function App() {
   return (
     <Router>
-    {/* //   <nav class="nav flex-column">
-    //     <a class="nav-link" href="/user">User</a>
-    //     <a class="nav-link" href="/Contents">Contents</a>
-    //     <a class="nav-link" href="#">Chat Rooms</a>
-    //     <a class="nav-link" href="/ChatContents">Chat Contents</a>
-    //   </nav> */}
-
       <Nav vertical>
         <NavItem>
           <NavLink href="/user">User</NavLink>
